@@ -1,0 +1,257 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/V2.0 | 20110126 License: none (public domain) */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* Global Styles */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1.125rem;
+    font-family: "Nunito", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.25rem .5rem;
+    border-radius: 0.2rem;
+    box-sizing: border-box;
+    margin-right: .5rem;
+}
+
+.btn-primary {
+    color: purple;
+    border: 1px solid purple;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 80px;
+    line-height: 80px;
+    height: 80px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(199, 121, 199);
+    margin: 10px;
+    border-radius: .25rem;
+}
+
+h1 {
+    font-size: 3.2rem;
+    color: purple;
+    font-weight: 700;
+}
+
+.game {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.game-board {
+    border: 1px solid purple;
+    border-radius: .25rem;
+}
+
+.goto {
+    text-align: center;
+    color: purple;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem auto;
+}
+
+.status {
+    text-align: center;
+    color: purple;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.reach {
+    border: 1px solid purple;
+    border-radius: .4rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+    margin-top: 1rem;
+}
